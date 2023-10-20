@@ -1,0 +1,211 @@
+/* css reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styling navbar */
+/* Styling af logo */
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo{
+  width: 200px;
+  position: absolute;
+  top: 2%;
+  left: 0.5%;
+}
+
+/* Navbar container */
+.navbar {
+  height: 100px;
+  overflow: hidden;
+  background: #ded7af;
+  padding: 30px;
+  top: 106px;
+  z-index: 1;
+  font-size: 1.4em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+/* Links inside the navbar */
+.navbar a {
+  font-size: 20px;
+  color: #314c3c;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: right;
+  overflow: hidden;
+  color: #314c3c;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: #314c3c;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+} 
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #e7e1c1;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background:#ded7af;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  opacity: 0.7;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: #314c3c;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  opacity: 0.7;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #e7e1c1;
+}
+
+/* Vis dropdown ved hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+  top: 99px;
+}
+
+/* Styling af kalender knappen i navbar */
+.calendar {
+  float: right;
+  padding: 15px;
+  color: #386149;
+}
+
+/* Styling af forside knappen i navbar */
+.frontpage {
+  float: right;
+  padding: 15px;
+}
+/* styling af nav bar slut */
+
+/* Styling main */
+.main{
+  background: #e7e1c1;
+  margin-bottom: 0;
+}
+
+/* Styling af overskrift */
+h1{
+  padding-top: 60px;
+  text-align: center;
+  color: #386149;
+  font-size: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
+  font-weight: bold;
+  border-bottom: 800px solid #e7e1c1
+}
+
+
+
+/* styling main slut */
+/* Styling af footer */
+.footer {
+background-color: #ded7af ;
+position: relative;
+bottom: 0;
+width: 100%;
+}
+
+.footer, .social {
+    text-align: center;
+    padding: 15px;
+    color: #314c3c;
+}
+
+/* styling af socialmedie logoer */
+.social a {
+    font-size: 24px;
+    color: #314c3c;
+    border: 1px solid #314c3c;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    opacity: 0.75;
+
+}
+/* hover på socialmedie logoer */
+.social a:hover {
+    opacity: 0.9;
+}
+
+/* styling af tekst i footer */
+.footer ul {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  }
+
+.footer ul li a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+/* Hovereffekt på alt tekst i footer */
+.footer ul li a:hover {
+    opacity: 1;
+}
+
+/* styling af copyright */
+.footer, .copyright {
+    text-align: center;
+    font-size: 13px;
+    color: #314c3c;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  }
+/* Styling af footer slut */
+
+
+
+
+
+
+
+ 
+
+
